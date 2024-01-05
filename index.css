@@ -5,8 +5,8 @@ html {
 body {
     display: block;
     margin: 0 auto;
-    margin-top: 60px;
-    width: 50%;
+    margin-top: 5%;
+    width: 60%;
     height: 70%;
     background-image: url("blackjack_2.jpg");
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', Arial, sans-serif;
@@ -19,24 +19,64 @@ body {
     border-radius: 10px;
 }
 
-#blank-space {
-    width: 100%;
-    height: 30px;
-}
-
 #container {
     background-color: rgb(2, 82, 2);
     display: block;
     margin: 0 auto;
     border: 4px solid black;
     width: 40%;
-    height: 80%;
-    margin-top: 15px;
+    height:65%;
+    margin-top: 7%;
 }
 
+@media only screen and (max-width: 946px) {
+
+    #container {
+    width: 50%;
+    height: 65%;
+    margin-top: 12%;
+    }
+}
+
+@media only screen and (max-width: 660px) {
+
+    #container {
+    width: 60%;
+    height: 60%;
+    margin-top: 15%;
+    }
+}
+
+@media only screen and (max-width: 558px) {
+
+    #container {
+    width: 70%;
+    height: 60%;
+    margin-top: 18%;
+    }
+}
+
+@media only screen and (max-width: 478px) {
+
+    #container {
+    width: 85%;
+    height: 60%;
+    margin-top: 20%;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+
+    #container {
+    width: 85%;
+    height: 65%;
+    margin-top: 22%;
+    }
+}
 h1 {
     color: goldenrod;
-    margin-top: 30px;
+    margin-top: 15%;
+    font-size: 1.8em;
 }
 
 #message-el {
@@ -45,7 +85,7 @@ h1 {
 
 button {
     color: #018a3f;
-    width: 150px;
+    width: 50%;
     background: goldenrod;
     padding-top: 5px;
     padding-bottom: 5px;

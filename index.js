@@ -45,8 +45,9 @@ function renderGame() {
     if (sum <= 20) {
         message = "Do you want to draw a new card?"
     } else if (sum === 21) {
-        message = "You've got Blackjack!"
         hasBlackJack = true
+        message = "You've got Blackjack!"
+        hasBlackJack = false;
     } else {
         message = "You're out of the game!"
         isAlive = false
