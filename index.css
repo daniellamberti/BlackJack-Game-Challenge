@@ -5,7 +5,7 @@ html {
 body {
     display: block;
     margin: 0 auto;
-    margin-top: 70px;
+    margin-top: 60px;
     width: 50%;
     height: 70%;
     background-image: url("blackjack_2.jpg");
@@ -30,8 +30,8 @@ body {
     margin: 0 auto;
     border: 4px solid black;
     width: 40%;
-    height: 70%;
-    margin-top: 40px;
+    height: 80%;
+    margin-top: 15px;
 }
 
 h1 {
